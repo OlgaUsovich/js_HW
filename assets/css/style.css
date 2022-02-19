@@ -47,7 +47,7 @@ body {
 .banner {
   display: flex;
   justify-content: space-between;
-  margin: 6.25rem 0 6.25rem 0;
+  margin: 6.25rem 0;
   align-items: center;
   width: 71.625rem;
   margin: 0 auto;
@@ -69,7 +69,6 @@ body {
 .banner__text {
   font-size: 1.25rem;
   color: #696871;
-  font-family: Mulish, sans-serif;
   line-height: 1.875rem;
   margin: 1.875rem 0 3.125rem 0;
 }

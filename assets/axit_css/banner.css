@@ -1,5 +1,5 @@
 .background-img {
-    background-image: url("/assets/axit_img/bg_image.png");
+    background-image: url("../axit_img/bg_image.png");
     width: 94.375rem;
     height: 64.125rem;
     margin: auto;

@@ -76,7 +76,7 @@
     border: 1px solid #C6CBCD;
     border-bottom-color: white;
     margin-bottom: -1px;
-    padding: 0.625rem 5.16rem;
+    padding: 0.625rem 5.09rem;
     border-top-left-radius: 0.3125rem;
     border-top-right-radius: 0.3125rem;
 }
@@ -84,4 +84,5 @@
 .tabs__image {
     width: 29.375rem;
     height: 31.25rem;
+    margin-left: 1.875rem;
 }

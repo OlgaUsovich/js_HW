@@ -65,9 +65,11 @@
     padding: 0.625rem 4.5625rem;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
+    color: #333333;
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 1.1875rem;
+    text-decoration: none;
 }
 
 .tab-active {

@@ -1,0 +1,39 @@
+.social__all {
+    width: 94.375rem;
+    height: 8.75rem;
+    margin: auto;
+    background-color: #F8EFEF;
+}
+
+.social__content {
+    width: 73.125rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social__text__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.0425rem;
+    height: 3.75rem;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.social__text__paragraph {
+    width: 29.375rem;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.32rem;
+    color: #86878B;
+}
+
+.social__button {
+    width: 4.375rem;
+    height: 4.375rem;
+}

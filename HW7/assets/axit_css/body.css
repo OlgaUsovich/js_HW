@@ -1,0 +1,12 @@
+@import url('banner.css');
+@import url('header.css');
+@import url('normalize.css');
+@import url('social.css');
+@import url('tabs.css');
+@import url('awesome.css');
+@import url('pricing.css');
+@import url('customers.css');
+
+* {
+    box-sizing: border-box;
+}

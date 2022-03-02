@@ -1,0 +1,70 @@
+.awesome-block{
+    margin: 6.5rem auto 3.625rem;
+    width: 73.125rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.awesome-block__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 2.64rem;
+    text-align: center;
+    margin: 0;
+}
+
+.awesome-block__line {
+    border-bottom: 1px solid #EC7979;
+    width: 10.625rem;
+    height: 3.375rem;
+    align-self: center;
+}
+
+.awesome-block__subtitle {
+    font-family: Raleway, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.31rem;
+    text-align: center;
+    color: #86878B;
+    padding: 0;
+    margin-top: 2.5rem;
+    margin-bottom: 4.44rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23.125rem;
+    height: 23.9375rem;
+}
+
+.card__title {
+    width: 23.06rem;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 6.25rem;
+    text-align: center;
+}
+
+.card__text {
+    height: 6.56rem;
+    align-self: flex-end;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.32rem;
+    margin: 0;
+}
+
+

@@ -1,3 +1,8 @@
+.customer-block {
+    height: 39.375rem;
+    margin-bottom: 4rem;
+}
+
 .customer-cards {
     display: flex;
     justify-content: space-between;

@@ -1,0 +1,33 @@
+.stylish-bg {
+    background-image: url("../axit_img/image.png");
+    width: 94.375rem;
+    margin: auto;
+}
+
+.stylish-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 27.625rem;
+    padding: 3.125rem 0;
+}
+
+.title-white {
+    line-height: 9.375rem;
+    color: #fff;
+}
+
+.line-white {
+    height: 0;
+    border-color: #fff;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.button-wide {
+    width: 23.125rem;
+}

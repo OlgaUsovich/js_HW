@@ -6,6 +6,7 @@
 @import url('awesome.css');
 @import url('pricing.css');
 @import url('customers.css');
+@import url('stylish.css');
 
 * {
     box-sizing: border-box;

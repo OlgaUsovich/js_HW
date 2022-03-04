@@ -95,8 +95,9 @@
     font-size: 0.875rem;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    display: flex;
-    flex-direction: column-reverse;
+    /* display: flex;
+    flex-direction: column-reverse; */
+    position: relative;
 }
 
 .form__title {
@@ -115,12 +116,16 @@
 .form__label {
     color: #BDBDBD;
     line-height: 1.36rem;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .form__input {
     border: 0;
     border-bottom: 1px solid #BDBDBD;
     width: 100%;
+    margin-top: 1.1875rem;
 }
 
 .form__input:focus {

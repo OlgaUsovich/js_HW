@@ -1,9 +1,8 @@
 .background-img {
-    background-image: url("../axit_img/bg_image.png");
+    margin: auto;
     width: 94.375rem;
     height: 64.125rem;
-    margin: auto;
-
+    background-image: url("../axit_img/bg_image.png");
 }
 
 .whole-banner {
@@ -11,13 +10,13 @@
 }
 
 .banner {
-    width: 73.125rem;
-    margin: auto;
     display: flex;
     justify-content: space-between;
-    padding-top: 12.937rem;
     box-sizing: border-box;
+    width: 73.125rem;
     height: 59.375rem;
+    margin: auto;
+    padding-top: 12.937rem;  
 }
 
 .banner__logo {
@@ -26,25 +25,25 @@
   }
 
 .banner__title {
-    font-size: 3rem;
-    line-height: 3.52rem;
-    margin: 0;
-    font-family: Raleway, sans-serif;
-    font-weight: 500;
-    color: #FFFFFF;
     width: 41.875rem;
     height: 10.5rem;
     margin: 3.18rem 0 3.44rem;
+    font-family: Raleway, sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 3.52rem;
+    color: #FFFFFF;
+   
   }
 
 .banner__text {
-    font-family: Raleway, sans-serif;
-    font-size: 1.125rem;
-    color: #FFFFFF;
-    line-height: 1.3125rem;
     width: 16.875rem;
     height: 2.625rem;
     margin: 2.625rem 0;
+    font-family: Raleway, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    color: #FFFFFF;
   }
 
 .banner__line {
@@ -101,12 +100,12 @@
 }
 
 .form__title {
+    margin-bottom: 2.81rem;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
     text-align: center;
     line-height: 5.625rem;
-    margin-bottom: 2.81rem;
 }
 
 .form__title-highlight {
@@ -114,11 +113,11 @@
 }
 
 .form__label {
-    color: #BDBDBD;
-    line-height: 1.36rem;
     position: absolute;
     top: 0;
     left: 0;
+    color: #BDBDBD;
+    line-height: 1.36rem;
 }
 
 .form__input {

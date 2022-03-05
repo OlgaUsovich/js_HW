@@ -5,6 +5,10 @@
     height: 45.125rem;
 }
 
+.contact-us__title {
+    margin-top: 3.125rem;
+}
+
 .input-message {
     width: 35.56rem;
     height: calc(100% - 1.1875rem);

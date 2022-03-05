@@ -8,6 +8,7 @@
 @import url('customers.css');
 @import url('stylish.css');
 @import url('contact-us.css');
+@import url('footer.css');
 
 * {
     box-sizing: border-box;

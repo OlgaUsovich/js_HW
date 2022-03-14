@@ -28,5 +28,31 @@
 }
 
 .button-wide {
-    width: 24.5%;
+    width: 23.125rem;
+}
+
+@media screen and (max-width: 1023.98px) {
+    
+    .stylish-content {
+        justify-content: flex-start;
+        height: 22.375rem;
+        padding: 0 0;
+    }
+
+    .title-white {
+        line-height: 7.5rem;
+        font-size: 1.5rem;
+    }
+
+    .text-white {
+        width: 18rem;
+        margin: 1rem 0 4.125rem;
+        line-height: 1.03rem;
+
+    }
+
+    .button-wide {
+        width: 18rem;
+        margin-bottom: 58px;
+    }
 }

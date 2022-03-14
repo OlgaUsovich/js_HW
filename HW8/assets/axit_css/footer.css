@@ -26,3 +26,21 @@
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
 }
+
+
+@media screen and (max-width: 1023.98px) {
+    .footer__button-group {
+        padding-bottom: 2.625rem;
+        width: 18rem;
+    }
+
+    .footer__button {
+        width: 1.625rem;
+        height: 1.625rem;
+    }
+
+    .copyright {
+        font-size: 0.875rem;
+        line-height: 1.03rem;
+    }
+}

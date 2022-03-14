@@ -21,14 +21,8 @@
 .input-group {
     display: flex;
     column-gap: 1.875rem;
-    width: 77%;
+    width: 73.125rem;
     margin: 0 auto;
-}
-
-
-
-.input-wide {
-    /* width: 35.69rem; */
 }
 
 .contact-us__subtitle {
@@ -48,4 +42,36 @@
     display: block;
     margin: 0 auto;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1023.98px) {
+    .contact-us {
+        height: 52.9375rem;
+    }
+
+    .contact-us__title {
+        margin: 2.87rem 0;
+        line-height: 1.76rem;
+    }
+
+    .contact-us__subtitle {
+        font-size: 0.875rem;
+        line-height: 1.03rem;
+        margin: 1.5rem 0 4rem;
+        width: 18rem;
+    }
+
+    .input-group {
+        flex-direction: column;
+        width: 18rem;
+    }
+
+    .input-group__item {
+        width: 100%;
+    }
+
+    .input-message {
+        height: 11.37rem;
+    }
+
 }

@@ -1,6 +1,6 @@
 .customer-block {
     height: 39.375rem;
-    margin-bottom: 4rem;
+    margin: 3.125rem 0 4rem;
 }
 
 .customer-cards {
@@ -78,4 +78,98 @@
 
 .customer__title {
     line-height: 9.375rem;
+}
+
+.dots {
+    display: none;
+}
+
+
+@media screen and (max-width: 1023.98px) {
+    .customer-block {
+        height: 34.28rem;
+        margin-top: 0;
+        margin-bottom: 1.97rem;
+    }
+
+    .customer__title {
+        line-height: 1.79rem;
+        margin-top: 1.99rem;
+        margin-bottom: 1.99rem;
+        font-size: 1.5rem;
+    }
+
+    .hidden-item {
+        display: none;
+    }
+
+    .customer-cards {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .customer-cards__card {
+        width: 100%;
+        min-height: 11.25rem;
+    }
+
+    .customer-cards__text {
+        position: relative;
+        min-height: 5rem;
+        padding: 3.125rem 0;
+        font-size: 0.875rem;
+        line-height: 1.03rem;
+    }
+
+    .author__info {
+        margin-top: 0.25rem;
+    }
+
+    .text__author {
+        margin: 3.875rem 0 1.4375rem;
+    }
+
+    .author__photo {
+        margin-right: 1.375rem;
+        width: 3.56rem;
+        height: 3.56rem;
+    }
+
+    .author__name {
+        font-size: 0.875rem;
+        line-height: 1.19;
+        padding: 0.53rem 0;
+    }
+
+    .autor__job {
+        margin: 0;
+        font-size: 0.81rem;
+        line-height: 0.95rem;
+        padding-top: 0.625rem;
+        padding-bottom: 0.5625rem;
+    }
+
+    .dots{
+        display: flex;
+        justify-content: space-between;
+        width: 8.09rem;
+    }
+
+    .dot {
+        width: 0.59rem;
+        height: 0.59rem;
+        border: 0.0625rem solid #86878B;
+        border-radius: 50%;
+    }
+
+    .dot-active {
+        background-color: #86878B;
+    }
+
+    .customer__subtitle {
+        margin: 1.5rem 0;
+    }
+
 }

@@ -10,7 +10,7 @@
 .banner {
   display: flex;
   justify-content: space-between;
-  width: 77%;
+  max-width: 73.125rem;
   height: 59.375rem;
   margin: auto;
   padding-top: 12.937rem;
@@ -126,7 +126,7 @@
 }
 
 .banner__form {
-  width: 37%;
+  max-width: 29.375rem;
   height: 28.125rem;
 }
 

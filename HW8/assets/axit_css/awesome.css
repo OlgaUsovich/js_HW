@@ -65,4 +65,58 @@
     margin: 0;
 }
 
+@media screen and (max-width: 1023.98px) {
+    .awesome-block{
+        margin: 0;
+    }
+
+    .awesome-block__title {
+        font-size: 1.125rem;
+        line-height: 7.5rem;
+    }
+
+    .awesome-block__line {
+        width: 8.375rem;
+        height: 0;
+    }
+
+    .awesome-block__subtitle {
+        font-size: 0.8125rem;
+        line-height: 0.95rem;
+        margin-top: 1.56rem;
+        margin-bottom: 3.125rem;
+    }
+
+    .cards {
+        flex-direction: column;
+        margin-bottom: 3.75rem;
+        align-items: center;
+    }
+
+    .cards__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 18rem;
+        height: 19.875rem;
+    }
+
+    .card__title {
+        padding: 0 0 0.56rem;
+        font-size: 1.125rem;
+        line-height: 5.125rem;
+    }
+
+    .card__text {
+        font-size: 0.875rem;
+        line-height: 1.03rem;
+    }
+
+    .card__img {
+        width: 9.19rem;
+        height: 9.19rem;
+    }
+
+}
+
 

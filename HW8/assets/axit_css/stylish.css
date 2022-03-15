@@ -56,3 +56,18 @@
         margin-bottom: 58px;
     }
 }
+
+@media (max-width: 1509.98px) and (min-width: 1024px) {
+    .stylish-content {
+        height: 22.375rem;
+    }
+
+    .title-white {
+        line-height: 7.5rem;
+    }
+
+    .button-wide {
+        width: 19.875rem;
+    }
+
+}

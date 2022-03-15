@@ -78,3 +78,34 @@
         height: 1.625rem;
     }
   }
+
+
+  @media (max-width: 1509.98px) and (min-width: 1024px) {
+    .social__all {
+        height: 6.56rem;
+      }  
+
+      .social__content {
+        width: 62rem;
+    }
+
+    .social__text__title {
+        font-size: 1.125rem;
+        line-height: 1.53rem;
+        height: 2.81rem;
+    }
+
+    .social__text__paragraph {
+        font-size: 0.875rem;
+        line-height: 1.03rem;
+    }
+
+    .social__buttons {
+        width: 35.625rem;
+    }
+
+    .social__button {
+        width: 4rem;
+        height: 4rem;
+    }
+  }

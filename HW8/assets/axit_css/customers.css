@@ -173,3 +173,47 @@
     }
 
 }
+
+@media (max-width: 1509.98px) and (min-width: 1024px) {
+    .customer-block {
+        height: 31.8rem;
+        margin-bottom: 3.56rem;
+    }
+
+    .customer-cards {
+        margin: 0;
+    }
+
+    .customer-cards__card {
+        min-height: 19.3125rem;
+    }
+
+    .customer-cards__text {
+        min-height: 5rem;
+        padding: 3.125rem 0;
+        font-size: 0.875rem;
+        line-height: 1.03rem;
+    }
+
+    .author__photo {
+        margin-right: 1.4rem;
+        width: 3.94rem;
+        height: 3.94rem;
+    }
+
+    .author__name {
+        font-size: 1.125rem;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    .autor__job {
+        font-size: 0.875rem;
+        line-height: 1.03rem;
+    }
+
+    .customer__title {
+        line-height: 7.5rem;
+    }
+    
+}

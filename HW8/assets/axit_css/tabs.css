@@ -133,3 +133,46 @@
         padding: 0.625rem 10%;
     }
   }
+
+  @media (max-width: 1509.98px) and (min-width: 1024px) {
+    .tabs__all {
+        width: 62rem;
+    }
+
+    .tabs__main {
+        margin-top: 3.125rem;
+    }
+
+    .text__title {
+        font-size: 1.5rem;
+        line-height: 5.5625rem;
+        margin: 0;
+    }
+
+    .text__paragraph {
+        font-size: 0.875rem;
+        line-height: 1.03rem;
+        margin: 2.375rem 0;
+    }
+
+    .tabs__button {
+        width: 14.49rem;
+        margin-bottom: 3rem;
+    }
+
+    .tabs-group__tab {
+        padding: 0.5rem 3.68rem;
+        line-height: 1.1918rem;
+    }
+
+    .tab-active {
+        padding: 0.5rem 4.19rem;
+    }
+
+    .tabs__image {
+        width: 24.89rem;
+        height: 24.0625rem;
+        margin-left: 1.64rem;
+    }
+
+  }

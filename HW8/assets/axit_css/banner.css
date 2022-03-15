@@ -94,7 +94,6 @@
 .banner__button {
   text-decoration: none;
   color: #ffffff;
-  padding-bottom: 0.625rem;
   border: 2px solid #ffffff;
   line-height: 3.625rem;
   font-family: "Open Sans", sans-serif;
@@ -240,4 +239,54 @@
 .form__button:active {
   background-color: #ec7979;
   box-shadow: 0 0 0.625rem 0 #ab4949 inset;
+}
+
+@media (max-width: 1509.98px) and (min-width: 1024px) {
+  .banner {
+    max-width: 64rem;
+    height: 43.31rem;
+    padding: 8.55rem 1.25rem 0 7.205rem;
+  }
+
+  .banner__logo {
+    width: 11.44rem;
+    height: 4.67rem;
+  }
+
+  .banner__title {
+    width: 28.39rem;
+    height: 7.87rem;
+    margin: 2.35rem 0 2.59rem;
+    font-size: 2.25rem;
+    line-height: 2.64rem;
+  }
+
+  .banner__text {
+    width: 11.44rem;
+    height: 2rem;
+    margin: 1.94rem 0;
+    font-size: 0.875rem;
+    line-height: 1.03rem;
+  }
+
+  .banner__line {
+    width: 7.21rem;
+  }
+
+  .banner__button {
+    line-height: 3.125rem;
+    width: 11.44rem;
+  }
+
+  .banner__form {
+    width: 24.875rem;
+    height: 28.125rem;
+  }
+
+  .form__title {
+    margin-top: 2.046rem;
+    margin-bottom: 4.86rem;
+    font-size: 1.125rem;
+  }
+
 }

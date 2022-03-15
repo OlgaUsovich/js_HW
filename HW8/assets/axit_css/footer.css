@@ -44,3 +44,20 @@
         line-height: 1.03rem;
     }
 }
+
+@media (max-width: 1509.98px) and (min-width: 1024px) {
+    .footer__button-group {
+        padding-bottom: 2.375rem;
+        width: 30.125rem;
+    }
+
+    .footer__button {
+        width: 2.8125rem;
+        height: 2.8152rem;
+    }
+
+    .copyright {
+        font-size: 0.875rem;
+        line-height: 1.03rem;
+    }
+}

@@ -82,3 +82,16 @@
     margin: 0;
   }
 }
+
+@media (max-width: 1509.98px) and (min-width: 1024px) {
+  .header__main {
+    padding-left: 7.205rem;
+    padding-right: 1.25rem;
+    width: 64rem;
+  }
+
+  .nav__link {
+    width: 7.06rem;
+  }
+
+}

@@ -143,3 +143,46 @@
     }
 
   }
+
+  @media (max-width: 1509.98px) and (min-width: 1024px) {
+    .pricing__title-block {
+        margin-bottom: 2rem;
+    }
+
+    .pricing__title {
+        line-height: 7.5rem;
+    }
+
+    .pricing-card {
+        width: 62rem;
+        margin-top: 1.11rem;
+    }
+
+    .pricing-card__card {
+        width: 19.875rem;
+    }
+
+    .pricing-card__card:hover {
+        margin-top: -1.11rem;
+    }
+
+    .pricing-card__title {
+        height: 3.33rem;
+        line-height: 3.33rem;
+    }
+
+    .pricing-card__price {
+        height: 5.54rem;
+        line-height: 5.54rem;
+    }
+
+    .pricing-card__description {
+        height: 2.77rem;
+        line-height: 2.77rem;
+    }
+
+    .pricing-card__offer {
+        height: 2.77rem;
+        line-height: 2.77rem;
+    }
+  }

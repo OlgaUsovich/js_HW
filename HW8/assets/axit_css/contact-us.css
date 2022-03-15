@@ -75,3 +75,27 @@
     }
 
 }
+
+@media (max-width: 1509.98px) and (min-width: 1024px) {
+    .contact-us {
+        height: 41.375rem;
+    }
+
+    .contact-us__title {
+        line-height: 7.5rem;
+    }
+
+    .input-group {
+        column-gap: 1.25rem;
+        width: 62rem;
+    }
+
+    .contact-us__subtitle {
+        margin-bottom: 4.5rem;
+    }
+
+    .contact-us__button {
+        width: 19.875rem;
+    }
+
+}

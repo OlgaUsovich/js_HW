@@ -119,4 +119,50 @@
 
 }
 
+@media (max-width: 1509.98px) and (min-width: 1024px) {
+    .awesome-block{
+        margin: 3.125rem auto 3.75rem;
+    }
+
+    .awesome-block__title {
+        font-size: 1.5rem;
+        line-height: 7.5rem;
+    }
+
+    .awesome-block__line {
+        width: 8.875rem;
+        height: 0;
+    }
+
+    .awesome-block__subtitle {
+        font-size: 0.875rem;
+        line-height: 1.03rem;
+        margin: 2rem 0;
+    }
+
+    .cards {
+        margin-bottom: 0;
+    }
+
+    .cards__card {
+        width: 19.8125rem;
+        height: 19.875rem;
+    }
+
+    .card__title {
+        font-size: 1.125rem;
+        line-height: 5.125rem;
+        padding: 0;
+    }
+
+    .card__text {
+        font-size: 0.875rem;
+        line-height: 1.03rem;
+    }
+
+    .card__img {
+        width: 9.19rem;
+        height: 9.19rem;
+    }
+}
 

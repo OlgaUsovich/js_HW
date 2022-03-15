@@ -1,0 +1,81 @@
+.customer-block {
+    height: 39.375rem;
+    margin-bottom: 4rem;
+}
+
+.customer-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.75rem;
+    margin-bottom: 4rem;
+}
+
+.customer-cards__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23.125rem;
+    height: 21rem;
+}
+
+.customer-cards__text {
+    position: relative;
+    height: 11.25rem;
+    padding: 2.375rem 0 2.3125rem;
+    font-family: Raleway, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.32rem;
+    color: #86878B;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0.625rem;
+    background-color: #E2E2E2;
+}
+
+.text__triangle {
+    position: absolute;
+    bottom: -20px;
+    left: 70px;
+    width: 0;
+	height: 0;
+	border-left: 1.25rem solid transparent;
+	border-right: 1.25rem solid transparent;
+	border-top: 1.25rem solid #E2E2E2;
+}
+
+.text__author {
+    display: flex;
+}
+
+.author__photo {
+    margin-right: 1.875rem;
+    width: 4.375rem;
+    height: 4.375rem;
+}
+
+.author__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.author__name {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 3.375rem;
+}
+
+.autor__job {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.3125rem;
+}
+
+.customer__title {
+    line-height: 9.375rem;
+}

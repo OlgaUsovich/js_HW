@@ -1,0 +1,111 @@
+.social__all {
+    height: 8.75rem;
+    margin: auto;
+    background-color: #F8EFEF;
+}
+
+.social__content {
+    width: 73.125rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social__text__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.0425rem;
+    height: 3.75rem;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.social__text__paragraph {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.32rem;
+    color: #86878B;
+}
+
+.social__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 57.26%;
+}
+
+.social__button {
+    width: 4.375rem;
+    height: 4.375rem;
+}
+
+@media screen and (max-width: 1023.98px) {
+    
+    .social__all {
+      height: 14.9375rem;
+    }
+
+    .social__content {
+        width: 17.9375rem;
+        height: 12.1875rem;
+        flex-direction: column;
+        padding-top: 1.9375rem;
+    }
+
+    .social__text__title {
+        font-size: 1.125rem;
+        line-height: 2.8125rem;
+        width: 7.1rem;
+        margin: 0 auto 0.8125rem;
+    }
+
+    .social__text__paragraph {
+        font-size: 0.875rem;
+        line-height: 1.0275em;
+        text-align: center;
+        margin: 0;
+    }
+
+    .social__buttons {
+        width: 18rem;
+    }
+
+    .social__button {
+        width: 1.625rem;
+        height: 1.625rem;
+    }
+  }
+
+
+  @media (max-width: 1509.98px) and (min-width: 1024px) {
+    .social__all {
+        height: 6.56rem;
+      }  
+
+      .social__content {
+        width: 62rem;
+    }
+
+    .social__text__title {
+        font-size: 1.125rem;
+        line-height: 1.53rem;
+        height: 2.81rem;
+    }
+
+    .social__text__paragraph {
+        font-size: 0.875rem;
+        line-height: 1.03rem;
+    }
+
+    .social__buttons {
+        width: 35.625rem;
+    }
+
+    .social__button {
+        width: 4rem;
+        height: 4rem;
+    }
+  }

@@ -1,0 +1,15 @@
+@import url('banner.css');
+@import url('header.css');
+@import url('normalize.css');
+@import url('social.css');
+@import url('tabs.css');
+@import url('awesome.css');
+@import url('pricing.css');
+@import url('customers.css');
+@import url('stylish.css');
+@import url('contact-us.css');
+@import url('footer.css');
+
+* {
+    box-sizing: border-box;
+}
